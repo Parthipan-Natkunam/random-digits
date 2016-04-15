@@ -167,7 +167,7 @@ def genNemesis():
         fin = comparator(key,c,tot)
         ent1.configure(state="normal")
         try:
-            ent1.insert(tot*2.0,random.choice(fin)) #random.choice(key)
+            ent1.insert(tot*2.0,random.choice(fin))
         except:
             ent1.insert(tot*2.0,"--")
         ent1.configure(state="disabled")
